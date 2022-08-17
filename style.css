@@ -234,10 +234,14 @@ font-family: 'Roboto', sans-serif; */
   color: var(--text-color);
 }
 .nav-item .tex_tcolor{
-  color: #FD4733;
+  color: var(--text-sh);
+  font-weight: 600;
 }
 .nav-item .tex_tcolor:hover{
-  color: #FD4733;
+  color: #ffff;
+}
+.nav .nav-item button.active{
+  background-color: #FD4766;
 }
 /* Toggleable dynamic tab and pill end */
 /* about me end */
