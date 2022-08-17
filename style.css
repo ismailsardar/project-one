@@ -35,7 +35,15 @@ font-family: 'Roboto', sans-serif; */
     --text-head1: #1F1F25;
     --text-sh: #262727d7;
 }
+/* scrol icon  */
+.scroll a i{
+  justify-content: right;
+}
+.scroll{
+  text-align: right;
 
+}
+/* scrol icon  */
 /* dark btn start  */
 .dark_theme img{
   width: 45px;
@@ -238,7 +246,7 @@ font-family: 'Roboto', sans-serif; */
   font-weight: 600;
 }
 .nav-item .tex_tcolor:hover{
-  color: #ffff;
+  color: var(--text-sh);
 }
 .nav .nav-item button.active{
   background-color: #FD4766;
@@ -634,4 +642,64 @@ footer{
   color: #FD4766;
 }
 /* footer end  */
+/* humbargar icon  */
+.hambargar{
+  color: #ffffff;
+  font-size: 40px;
+  padding-right: 20px;
+}
+nav i.hambargar{
+  display: none;
+}
+#click{
+  display: none  ;
+}
+/* humbargar icon  */
 
+/* Responsiv design start */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media(max-width: 768px) {
+   nav .navbar-nav{
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    background-color: #111;
+    height: 100vh;
+    width: 100%;
+    display: block;
+    transition: all 0.5s ease;
+  } 
+#click:checked ~ ul{
+  left: 0%;
+}
+#click:checked ~ .menu-btn i:before{
+  content: "\f00d";
+}
+  nav .navbar-nav li{
+    margin: 40px 0;
+  }
+  nav .navbar-nav li a{
+    font-size: 20px;
+  }
+  nav .navbar-nav li a:hover,
+  nav .navbar-nav li a:active{
+    color: cyan;
+  }
+  nav i.hambargar{  
+    display: block;
+}
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
+/* Responsiv design end */

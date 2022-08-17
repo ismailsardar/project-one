@@ -24,25 +24,34 @@
   <!-- header start -->
   <header class="head bannar-img">
     <nav class="navbar navbar-expand-lg mb-2 justify-content-between">
-      <a href="#home" class="navbar-brand"><img
-          src="http://rainbowit.net/themes/imroz/wp-content/themes/imroz/assets/images/logo/logo.png" alt="logo-img"
-          class="logo-img"></a>
 
-      <!-- <i class="fas fa-times" onclick="hidemenu()"></i> -->
-      <ul class="navbar-nav">
-        <li class="nav-item"><a href="#home" class="nav-link text-white my-style">Home</a></li>
-        <li class="nav-item"><a href="#about" class="nav-link text-white my-style">About</a></li>
-        <li class="nav-item"><a href="#service" class="nav-link text-white my-style">Services</a></li>
-        <li class="nav-item"><a href="#projects" class="nav-link text-white my-style">Protfolio</a></li>
-        <li class="nav-item"><a href="#Pricing" class="nav-link text-white my-style">Pricing</a></li>
-        <li class="nav-item"><a href="#blog" class="nav-link text-white my-style">Blog</a></li>
-        <li class="nav-item"><a href="#contact" class="nav-link text-white my-style">Contact</a></li>
-        <li class="nav-item"><a href="#contact" class="nav-link text-white my-style">
-            <i class="soping fas fa-cart-shopping"></i>
-            <span class="pop_up">0</span>
-          </a></li>
-      </ul>
-
+        <a href="#home" class="navbar-brand"><img
+            src="http://rainbowit.net/themes/imroz/wp-content/themes/imroz/assets/images/logo/logo.png" alt="logo-img"
+            class="logo-img"></a>
+      <!-- hanbarger icon  -->
+      <input type="checkbox" id="click">
+      <label for="click" class="menu-btn">
+        <i class="hambargar fas fa-bars"></i>
+      </label>
+      
+      <!-- hanbarger icon  -->
+      
+        <ul class="navbar-nav">
+          <li class="nav-item"><a href="#home" class="nav-link text-white my-style">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link text-white my-style">About</a></li>
+          <li class="nav-item"><a href="#service" class="nav-link text-white my-style">Services</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link text-white my-style">Protfolio</a></li>
+          <li class="nav-item"><a href="#Pricing" class="nav-link text-white my-style">Pricing</a></li>
+          <li class="nav-item"><a href="#blog" class="nav-link text-white my-style">Blog</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link text-white my-style">Contact</a></li>
+        </ul>
+        
+      <div class="rbt-mini-cart-wrap">
+        <a href="http://rainbowit.net/themes/imroz/cart/"><span class="mini-cart"><i class="soping fas fa-cart-shopping"></i>
+            <span class="rbt-cart-count">0</span>
+          </span></a>
+      </div>
+      <!-- soping icon  -->
       <!-- dark icon  -->
       <div class="dark_theme">
         <img src="./img/sun.png" alt="LOGO" id="img_icon">
@@ -52,6 +61,8 @@
       <button class="btn btn-outline-danger me-3">
         <a href="#" class="text-decoration-none text-white">Buy Now</a>
       </button>
+        
+      
     </nav>
     <div class="heder-content text-white p-5 " id="home">
       <div class="head-text">
@@ -84,21 +95,25 @@
             <!-- Toggleable dynamic tab and pill start -->
             <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
               <li class="nav-item" role="presentation">
-                <button class="nav-link active tex_tcolor" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
-                  type="button" role="tab" aria-controls="pills-home" aria-selected="true">Main
+                <button class="nav-link active tex_tcolor" id="pills-home-tab" data-bs-toggle="pill"
+                  data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                  aria-selected="true">Main
                   skills</button>
               </li>
               <li class="nav-item" role="presentation">
-                <button class="nav-link tex_tcolor" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
-                  type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Awards</button>
+                <button class="nav-link tex_tcolor" id="pills-profile-tab" data-bs-toggle="pill"
+                  data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                  aria-selected="false">Awards</button>
               </li>
               <li class="nav-item" role="presentation">
-                <button class="nav-link tex_tcolor" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
-                  type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Experience</button>
+                <button class="nav-link tex_tcolor" id="pills-contact-tab" data-bs-toggle="pill"
+                  data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                  aria-selected="false">Experience</button>
               </li>
               <li class="nav-item" role="presentation">
-                <button class="nav-link tex_tcolor" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-edu"
-                  type="button" role="tab" aria-controls="pills-edu" aria-selected="false">Education &
+                <button class="nav-link tex_tcolor" id="pills-contact-tab" data-bs-toggle="pill"
+                  data-bs-target="#pills-edu" type="button" role="tab" aria-controls="pills-edu"
+                  aria-selected="false">Education &
                   Certification</button>
               </li>
             </ul>
@@ -197,6 +212,7 @@
           </div>
         </div>
       </div>
+
     </div>
 
     <div class="clear"></div>
@@ -245,8 +261,6 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
               <div class="card bg_color box">
                 <div class="card-body p-4">
@@ -333,9 +347,6 @@
                 </div>
               </div>
             </div>
-
-          </div>
-          <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col my-position">
               <div class="card bg-dark animet-card animet-card_img3">
                 <div class="card-body card_deg">
@@ -681,6 +692,13 @@
             Copyright &copy; 2022 All rights reserved by <a href="#">Rainbow-Themes</a>. Built with love in Bangladesh
             All rights reserved.
           </p>
+          <!-- seroll icon -->
+          <div class="scroll">
+            <a href="#home" class="">
+              <i class="fas fa-arrow-alt-circle-up"></i>
+            </a>
+          </div>
+          <!-- seroll icon -->
         </div>
       </div>
     </div>
