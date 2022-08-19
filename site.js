@@ -1,4 +1,3 @@
-
 // color theme start
 let icon = document.getElementById('img_icon');
 
