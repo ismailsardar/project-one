@@ -860,7 +860,7 @@ nav i.hambargar{
     padding-right: 100px;
     
   }
-  .head-text{
+.head-text{
   margin-top: 200px;
 }
 .head-txt-h1{
@@ -869,6 +869,22 @@ nav i.hambargar{
 .head-txt-pra{
   font-size: 26px;
   letter-spacing: 2px;
+}
+}
+@media only screen and (max-width: 365px){
+.head-text{
+  margin-top: 80px;
+}
+.head-txt-h1{
+  font-size: 40px;
+}
+.head-txt-pra{
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+.nav-item .tex_tcolor{
+  font-size: 15px;
+  padding: 7px;
 }
 }
 /* Responsiv design end */
