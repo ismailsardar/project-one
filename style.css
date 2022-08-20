@@ -873,7 +873,23 @@ nav i.hambargar{
 }
  @media only screen and (max-width: 465px){
 .head-text{
-  margin-top: 80px;
+  margin-top: 200px;
+}
+.head-txt-h1{
+  font-size: 40px;
+}
+.head-txt-pra{
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+.nav-item .tex_tcolor{
+  font-size: 15px;
+  padding: 7px;
+}
+}
+ @media only screen and (max-width: 375px){
+.head-text{
+  margin-top: 100px;
 }
 .head-txt-h1{
   font-size: 40px;
