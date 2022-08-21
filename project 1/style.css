@@ -872,6 +872,15 @@ nav i.hambargar{
 }
 }
  @media only screen and (max-width: 465px){
+  .bannar-img{
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(188,0,0,0.3),rgba(9,9,200,0.2)),url(img/baner2.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
 .head-text{
   margin-top: 200px;
 }
@@ -889,7 +898,7 @@ nav i.hambargar{
 }
  @media only screen and (max-width: 375px){
 .head-text{
-  margin-top: 100px;
+  margin-top: 200px;
 }
 .head-txt-h1{
   font-size: 40px;
