@@ -1,4 +1,4 @@
 # project-one
 soft lab it first projects
 
-libe link : https://ismailsardar.github.io/project-one/
+libe link : https://ismailsardar.github.io/project-one/project 1/
